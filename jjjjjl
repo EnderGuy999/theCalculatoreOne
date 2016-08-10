@@ -1,0 +1,431 @@
+3
+Error: <class 'SystemExit'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Error: <class 'ValueError'>
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 29, in imputHandle
+    quit()
+  File "C:\Users\rober\AppData\Local\Programs\Python\Python35-32\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 32, in imputHandle
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/rober/Desktop/calk/main.py", line 42, in <module>
+    intruck()
+  File "C:/Users/rober/Desktop/calk/main.py", line 17, in intruck
+    imputHandle()
+  File "C:/Users/rober/Desktop/calk/main.py", line 38, in imputHandle
+    input()
+ValueError: I/O operation on closed file.
+
+Process finished with exit code 1
