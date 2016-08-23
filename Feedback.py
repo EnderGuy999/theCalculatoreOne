@@ -1,3 +1,4 @@
+import datetime
 
 
 def feedback():
@@ -5,7 +6,7 @@ def feedback():
     if "y" in inputFeedback:
         name = input("Would you please put your username.\n")
         feedbackText = input("Type your thoughts now.\n")
-        #   nameFile = username + "_" + date
+        nameFile = name + "_" + str(datetime.datetime.now())
 
         #   if nameFile exists:
         #       ERROR file already exists
@@ -13,15 +14,15 @@ def feedback():
         #   else:
         #       create the file with the name being nameFile
 
-
-        #   parce data with return every 15 words.
-
+        #   parce data with return every 15 spaces.
+        # parceData()
 
         #   store parced data in text document.
-
+        #   goesInFile = parcedData
 
         #   close out of document and program.
-
+        #   file.close
+        #   quit
 
         return
     elif "n" in inputFeedback:
