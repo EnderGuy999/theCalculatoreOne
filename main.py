@@ -18,21 +18,21 @@ def intruck():
 
 def imputHandle():
     try:
-        Jellyfish = input()
+    Jellyfish = input()
 
-        if Jellyfish == "1":
-            Starfish()
-        elif Jellyfish == "2":
-            Seahorse()
-        elif Jellyfish == "3":
-            feedback()
-            sys.exit()
-        elif Jellyfish == "":
-            print("\n")
-            imputHandle()
-        else:
-            print(str(Jellyfish) + " is not a valid command plz try again.")
-
+    if Jellyfish == "1":
+        Starfish()
+    elif Jellyfish == "2":
+        Seahorse()
+    elif Jellyfish == "3":
+        feedback()
+        sys.exit()
+    elif Jellyfish == "":
+        print("\n")
+        imputHandle()
+    else:
+        print(str(Jellyfish) + " is not a valid command plz try again.")
+        
     except SystemExit:
         quit()
 
