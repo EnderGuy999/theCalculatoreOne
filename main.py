@@ -17,7 +17,7 @@ def intruck():
 
 
 def imputHandle():
-    try:
+    # try:
     Jellyfish = input()
 
     if Jellyfish == "1":
@@ -32,15 +32,15 @@ def imputHandle():
         imputHandle()
     else:
         print(str(Jellyfish) + " is not a valid command plz try again.")
-        
-    except SystemExit:
-        quit()
 
-    except:
-        e = sys.exc_info()[0]
-        print("Error: %s" % e)
-        input()
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    # except SystemExit:
+    #     quit()
+
+    # except:
+    #     e = sys.exc_info()[0]
+    #     print("Error: %s" % e)
+    #     input()
+    #     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
 while True:
     intruck()
