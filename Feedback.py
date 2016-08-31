@@ -11,10 +11,6 @@ def feedback():
         name = input("Would you please put your username.\n")
         feedbackText = input("Type your thoughts now.\n")
 
-        feedbackFolderName = "C:/Users/" + getpass.getuser() + "/Desktop/FeedbackFolder/"
-        if not os.path.exists(feedbackFolderName):
-            os.makedirs(feedbackFolderName)
-
         #   parce data with return every 15 spaces.
         for i in feedbackText:
             if i == " ":
@@ -27,19 +23,28 @@ def feedback():
             else:
                 pFeedback += i
 
-        theDate = str(datetime.datetime.now())
-        theDate = theDate.replace(".", "_")
-        theDate = theDate.replace(":", "_")
-        theDate = theDate.replace(" ", ",")
-        nameFile = name + "_" + theDate + ".txt"
+        MKTXTFILE(name, pFeedback)
 
-        fewebackFile = open(feedbackFolderName + nameFile, "w")
-
-        fewebackFile.write(pFeedback)
-
-        fewebackFile.close()
         return
     elif "n" in inputFeedback:
         return
     else:
         return
+
+
+def MKTXTFILE(name = "DEFAULT", message = "NO MESSAGE WAS GIVEN TO PROGRAM!!"):
+    feedbackFolderName = "C:/Users/" + getpass.getuser() + "/Desktop/FeedbackFolder/"
+    if not os.path.exists(feedbackFolderName):
+        os.makedirs(feedbackFolderName)
+
+    theDate = str(datetime.datetime.now())
+    theDate = theDate.replace(".", "_")
+    theDate = theDate.replace(":", "_")
+    theDate = theDate.replace(" ", ",")
+    nameFile = name + "_" + theDate + ".txt"
+
+    fewebackFile = open(feedbackFolderName + nameFile, "w")
+
+    fewebackFile.write(message)
+
+    fewebackFile.close()
