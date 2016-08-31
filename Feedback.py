@@ -5,6 +5,7 @@ import os
 
 def feedback():
     spaceCounter = 0
+    pFeedback = ""
     inputFeedback = input("Do you want to give feedback.(yes or no)\n")
     if "y" in inputFeedback:
         name = input("Would you please put your username.\n")
@@ -15,11 +16,16 @@ def feedback():
             os.makedirs(feedbackFolderName)
 
         #   parce data with return every 15 spaces.
-        for i, q in enumerate(feedbackText):
-            if q == " ":
-                spaceCounter += 1
-            if spaceCounter == 15:
-                feedbackText[i] = "\n"
+        for i in feedbackText:
+            if i == " ":
+                if spaceCounter == 15:
+                    pFeedback += "\n"
+                    spaceCounter = 0
+                else:
+                    spaceCounter += 1
+                    pFeedback += i
+            else:
+                pFeedback += i
 
         theDate = str(datetime.datetime.now())
         theDate = theDate.replace(".", "_")
@@ -27,24 +33,11 @@ def feedback():
         theDate = theDate.replace(" ", ",")
         nameFile = name + "_" + theDate + ".txt"
 
-        # for u, m in enumerate(nameFile):
-        #     if m == " ":
-        #         nameFile[u] = "_"
+        fewebackFile = open(feedbackFolderName + nameFile, "w")
 
-        # if nameFile exists:
-        #   ERROR file already exists
-        #   quit()
-        # else:
-        #   feedbackFile = open(nameFile)
-        feddbackFile = open(feedbackFolderName + nameFile, "w")
+        fewebackFile.write(pFeedback)
 
-        #   store parced data in text document.
-        #   goesInFile = parcedData
-
-        #   close out of document and program.
-        #   file.close
-        #   quit
-
+        fewebackFile.close()
         return
     elif "n" in inputFeedback:
         return
