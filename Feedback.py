@@ -31,9 +31,16 @@ def feedback():
     else:
         return
 
+def filterChars(text, Forb):
+    for x in text:
+        if x in Forb:
+            # print Error message and ask to renter text.
+# \/:*?|<>
 
 def MKTXTFILE(name = "DEFAULT", message = "NO MESSAGE WAS GIVEN TO PROGRAM!!"):
+
     feedbackFolderName = "C:/Users/" + getpass.getuser() + "/Desktop/FeedbackFolder/"
+
     if not os.path.exists(feedbackFolderName):
         os.makedirs(feedbackFolderName)
 

@@ -1,4 +1,5 @@
 import sys
+import traceback
 from Feedback import feedback
 from addingStuff import Starfish
 from subtractingStuff import Seahorse
@@ -34,7 +35,10 @@ def imputHandle():
             print(str(Jellyfish) + " is not a valid command plz try again.")
 
     except SystemExit:
-            quit()
+        quit()
+
+    except OSError:
+        traceback.print_exc()
 
     except:
         print("You Have Found An Error.")
