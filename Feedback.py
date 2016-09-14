@@ -2,13 +2,20 @@ import datetime
 import getpass
 import os
 
+def giveName():
+    name = input("Would you please put your username.\n")
+    if filterChars(name, ("/", "\\", ":", "*", "?", "|", "<", ">")):
+        giveName()
+    return name
+
 
 def feedback():
     spaceCounter = 0
     pFeedback = ""
     inputFeedback = input("Do you want to give feedback.(yes or no)\n")
     if "y" in inputFeedback:
-        name = input("Would you please put your username.\n")
+        name = giveName()
+
         feedbackText = input("Type your thoughts now.\n")
 
         #   parce data with return every 15 spaces.
@@ -20,8 +27,10 @@ def feedback():
                 else:
                     spaceCounter += 1
                     pFeedback += i
+
             else:
                 pFeedback += i
+
 
         MKTXTFILE(name, pFeedback)
 
@@ -31,11 +40,15 @@ def feedback():
     else:
         return
 
+
 def filterChars(text, Forb):
     for x in text:
         if x in Forb:
-            # print Error message and ask to renter text.
-# \/:*?|<>
+            print("Your Have Entered One Or More Forbiden Characters Please Try Again. List(/\:*?|<>)")
+            return True
+
+    return False
+
 
 def MKTXTFILE(name = "DEFAULT", message = "NO MESSAGE WAS GIVEN TO PROGRAM!!"):
 
