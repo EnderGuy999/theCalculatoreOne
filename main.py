@@ -37,8 +37,9 @@ def imputHandle():
     except SystemExit:
         quit()
 
-    except OSError:
+    except (OSError, TypeError):
         traceback.print_exc()
+        quit()
 
     except:
         print("You Have Found An Error.")

@@ -3,10 +3,13 @@ import getpass
 import os
 
 def giveName():
-    name = input("Would you please put your username.\n")
-    if filterChars(name, ("/", "\\", ":", "*", "?", "|", "<", ">")):
-        giveName()
-    return name
+    # dirtyName = input("Would you please put your username.\n")
+    # if filterChars(dirtyName, ("/", "\\", ":", "*", "?", "|", "<", ">")):
+    #     giveName()
+    #     pass
+    # cleanName = dirtyName
+    cleanName = input("Would you please put your username.\n")
+    return cleanName
 
 
 def feedback():
@@ -14,7 +17,9 @@ def feedback():
     pFeedback = ""
     inputFeedback = input("Do you want to give feedback.(yes or no)\n")
     if "y" in inputFeedback:
-        name = giveName()
+        name = ""
+        while filterChars(name, ("/", "\\", ":", "*", "?", "|", "<", ">")) or not name:
+            name = giveName()
 
         feedbackText = input("Type your thoughts now.\n")
 
@@ -45,8 +50,9 @@ def filterChars(text, Forb):
     for x in text:
         if x in Forb:
             print("Your Have Entered One Or More Forbiden Characters Please Try Again. List(/\:*?|<>)")
+            #return error
             return True
-
+    #no error
     return False
 
 
@@ -61,10 +67,20 @@ def MKTXTFILE(name = "DEFAULT", message = "NO MESSAGE WAS GIVEN TO PROGRAM!!"):
     theDate = theDate.replace(".", "_")
     theDate = theDate.replace(":", "_")
     theDate = theDate.replace(" ", ",")
-    nameFile = name + "_" + theDate + ".txt"
+    nameFile = str(name) + "_" + theDate + ".txt"
 
     fewebackFile = open(feedbackFolderName + nameFile, "w")
 
     fewebackFile.write(message)
 
     fewebackFile.close()
+
+    fullPath = feedbackFolderName + nameFile
+
+    if os.path.exists(fullPath):
+        print("Your feedback has been recorded. Thank you for using my calculator. " + fullPath)
+        return
+
+    else:
+        print("Opps! Something has gone wrong in " + fullPath)
+        raise SystemExit
