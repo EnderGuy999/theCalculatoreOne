@@ -41,12 +41,12 @@ def imputHandle():
         traceback.print_exc()
         quit()
 
-    except:
-        print("You Have Found An Error.")
-        e = sys.exc_info()[0]
-        print("Error: %s" % e)
-        input()
-        print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    # except:
+    #     print("You Have Found An Error.")
+    #     e = sys.exc_info()[0]
+    #     print("Error: %s" % e)
+    #     input()
+    #     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
 while True:
     intruck()

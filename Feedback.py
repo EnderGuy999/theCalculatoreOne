@@ -36,14 +36,14 @@ def feedback():
             else:
                 pFeedback += i
 
-
         MKTXTFILE(name, pFeedback)
 
         return
     elif "n" in inputFeedback:
         return
     else:
-        return
+        print("You have entered a something that doesn't have a y/n in it, please try again.")
+        feedback()
 
 
 def filterChars(text, Forb):
