@@ -1,13 +1,9 @@
-import datetime
-import getpass
 import os
+import getpass
+import datetime
+
 
 def giveName():
-    # dirtyName = input("Would you please put your username.\n")
-    # if filterChars(dirtyName, ("/", "\\", ":", "*", "?", "|", "<", ">")):
-    #     giveName()
-    #     pass
-    # cleanName = dirtyName
     cleanName = input("Would you please put your username.\n")
     return cleanName
 
@@ -16,6 +12,7 @@ def feedback():
     spaceCounter = 0
     pFeedback = ""
     inputFeedback = input("Do you want to give feedback.(yes or no)\n")
+
     if "y" in inputFeedback:
         name = ""
         while filterChars(name, ("/", "\\", ":", "*", "?", "|", "<", ">")) or not name:
@@ -23,7 +20,6 @@ def feedback():
 
         feedbackText = input("Type your thoughts now.\n")
 
-        #   parce data with return every 15 spaces.
         for i in feedbackText:
             if i == " ":
                 if spaceCounter == 15:

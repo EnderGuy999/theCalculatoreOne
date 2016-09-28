@@ -4,12 +4,14 @@ SubtractingStarfish = False
 def Seahorse():
     global SubtractingStarfish
     SubtractingStarfish = True
+
     while SubtractingStarfish is True:
         subtractingFuncion()
 
 
 def subtractingFuncion():
     global SubtractingStarfish
+
     print("This is the subtracting function.")
     print("Now put in the first number you want to subtract and press enter.")
     Coral = input()
@@ -21,15 +23,15 @@ def subtractingFuncion():
         print(round(float(Coral) - float(SeaCucumber), 1))
         print("Do you want to subtract again.(Yes or No)")
         Angelfish = input().lower()
+        if "y" in Angelfish:
+            return
+        elif "n" in Angelfish:
+            SubtractingStarfish = False
+        else:
+            print("I assumed you said yes.")
+            return
 
-    except TypeError:
+    except (TypeError, ValueError):
         print("You have entered a character or word that is not a number, please try again.")
         subtractingFuncion()
 
-    if "y" in Angelfish:
-        return
-    elif "n" in Angelfish:
-        SubtractingStarfish = False
-    else:
-        print("I assumed you said yes.")
-        return
